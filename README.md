@@ -9,8 +9,8 @@ mark it up, copy or save) and rebuilds it from scratch so it works on every moni
 resolution, scaling and orientation, always in real pixels.
 
 <p align="center">
-  <a href="docs/media/displayshot.mp4"><img src="docs/images/film-poster.jpg" alt="Watch the DisplayShot film (1:29)" width="720"></a><br>
-  <sub>▶ Watch the film (1:29)</sub>
+  <img src="docs/media/displayshot.gif" alt="DisplayShot in action: one selection fitting every screen, a capture marked up and saved, and a selection crossing three monitors" width="880"><br>
+  <sub>The first 44 seconds of the film · <a href="docs/media/displayshot.mp4">full film with sound (1:29, MP4)</a></sub>
 </p>
 
 ---
