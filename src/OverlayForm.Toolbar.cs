@@ -324,8 +324,8 @@ namespace DisplayShot
             if (Settings.CopyOnSave) PutOnClipboard(bmp);
         }
 
-        /// <summary>Where Save writes: the folder chosen with Save's corner badge (or the last one used with
-        /// Save as), or Pictures\Screenshots (the folder Windows itself uses for Win+PrtScn) until then.</summary>
+        /// <summary>Where Save writes: the folder chosen with Save's corner badge, or Pictures\Screenshots
+        /// (the folder Windows itself uses for Win+PrtScn) until then.</summary>
         static string QuickSaveFolder()
         {
             string folder = Settings.SaveFolder;
@@ -356,8 +356,7 @@ namespace DisplayShot
             }
         }
 
-        /// <summary>Save as (folder button, Ctrl+Shift+S): the Explorer dialog, any folder and format. The
-        /// folder chosen here becomes the one Save uses from now on.</summary>
+        /// <summary>Save as (folder button, Ctrl+Shift+S): the Explorer dialog, any folder and format.</summary>
         void SaveAs()
         {
             CommitText();
@@ -383,7 +382,6 @@ namespace DisplayShot
                             SaveImage(bmp, dlg.FileName);
                             CopyAfterSave(bmp);
                         }
-                        Settings.SaveFolder = Path.GetDirectoryName(dlg.FileName);
                         Close();
                         return;
                     }

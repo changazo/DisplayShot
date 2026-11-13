@@ -29,7 +29,7 @@ namespace DisplayShot
         /// <summary>Keep the copied-to-clipboard message above other windows.</summary>
         public static bool CopyMessageOnTop { get { return ReadInt("Hints", "CopyMessageOnTop", 0) == 1; } }
 
-        /// <summary>Folder Quick save writes to: the last folder used with Save as ("" = Pictures\Screenshots).</summary>
+        /// <summary>Folder Quick save writes to ("" = Pictures\Screenshots).</summary>
         public static string SaveFolder
         {
             get { return ReadString("Save", "Folder"); }

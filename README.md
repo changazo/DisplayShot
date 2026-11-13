@@ -33,7 +33,7 @@ screen freezes and dims:
   To change that folder, click the small folder badge on its corner, or right-click Save.
   Until you choose one it's `Pictures\Screenshots`, the same folder Windows uses for Win+PrtScn.
 * **Save as** (the folder button) opens the usual dialog to choose any folder and format (PNG,
-  JPEG, BMP, GIF, TIFF). The folder you pick there also becomes Save's folder.
+  JPEG, BMP, GIF, TIFF). This does not change Save's folder.
 * **Gear button**: choose which toolbar buttons to show; the toolbar shrinks to fit and remembers
   your choice. Keyboard shortcuts keep working for hidden buttons. **Also copy when saving** makes
   Save and Save as put the image on the clipboard too, so one key both files and copies it.
